@@ -235,16 +235,3 @@ Hyperparameter tuning via Keras Tuner RandomSearch produced meaningful improveme
 
 ![Figure B3: Residual distributions](images/figB3_residuals.png)
 *Figure B3: Residual (actual − predicted) distributions for all four models on the test set.*
-
-### Appendix C — Generative AI Usage
-
-Claude (Anthropic, claude-sonnet-4-6) was used as an AI assistant throughout this project.
-
-- **Code debugging and enhancement.** Claude reviewed and modified the initial code written by the student, for example diagnosing the Keras/TensorFlow CPU hang and switching to the PyTorch backend, fixing an Apple Silicon tensor conversion error (`.detach().cpu().numpy()`), and correcting a hyperparameter indexing bug between grid search and final training.
-- **Report improvement.** Claude provided structural and editorial suggestions on the student's draft text.
-- **What AI did NOT do.** AI did not execute any code, run any experiments, or produce any model outputs or figures. All notebook executions and training runs were performed by the student on their own machine.
-
-**Sample prompts:**
-
-- "My LSTM training is printing nothing after Epoch 1/30 — can you diagnose why?"
-- "TypeError: can't convert mps:0 device type tensor to numpy — how do I fix for Apple Silicon?"
