@@ -1,6 +1,7 @@
 # Hotel Review Score Prediction
 
-**ACTL3143 / ACTL5111 · Deep Learning Project Report · Corinne Chen (z5515684)**
+**ACTL3143 / ACTL5111 · Deep Learning Project Report · Corinne Chen**
+**this is a project i did at unsw**
 
 Predicting the score a hotel guest gives their stay from the written review and metadata, comparing a **Ridge Regression** baseline against a **Feedforward Neural Network (TF-IDF)** and an **LSTM (learned embeddings)**. Built with Keras v3 (PyTorch backend).
 
